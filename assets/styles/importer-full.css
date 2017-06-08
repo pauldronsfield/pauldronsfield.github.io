@@ -4855,8 +4855,8 @@ a {
 .products-page .header__nav-first-list li:nth-child(2),
 .locations-page .header__nav-first-list li:nth-child(3),
 .pr-and-editorial-page .header__nav-first-list li:last-child,
-.business-portraits-page .header__nav-second-list li:first-child,
-.people-page .header__nav-second-list li:nth-child(2),
+.business-portraits-page .header__nav-second-list li:nth-child(2),
+.people-page .header__nav-second-list li:first-child,
 .interiors-and-exteriors-page .header__nav-second-list li:last-child {
   color: #ff0099 !important; }
 
