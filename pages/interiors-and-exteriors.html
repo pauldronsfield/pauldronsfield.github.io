@@ -26,7 +26,7 @@
     "@context" : "http://schema.org",
     "@type" : "LocalBusiness",
     "name" : "Creative Edge Photography",
-    "telephone" : "+44 (0)7802 987 850",
+    "telephone" : "+44 7802 987 850",
     "email" : "pauldronsfield@btconnect.com",
     "logo" : "http://www.creativeedgephoto.co.uk//assets/images/logos/logo.png",
     "address" : {
@@ -37,6 +37,13 @@
       "addressCountry" : "United Kingdom",
       "postalCode" : "CM1 2SL"
     },
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+44 7802 987 850",
+      "contactType": "customer service",
+      "email" : "pauldronsfield@btconnect.com",
+
+    }],
     "image" : "http://www.creativeedgephoto.co.uk/assets/images/products/thumbnails/products_1.jpg",
     "url" : "http://www.creativeedgephoto.co.uk"
   }
@@ -199,22 +206,22 @@
 </div>
 
 <!--SCRIPTS-->
-  <script src="../assets/js/dependencies/jquery.min.js"></script>
-  <script src="../assets/js/dependencies/unitegallery.min.js"></script>
-  <script src="../assets/js/dependencies/zug-theme-tiles.js"></script>
-  <script src="../assets/js/main.js" async></script>
+<script src="../assets/js/dependencies/jquery.min.js"></script>
+<script src="../assets/js/dependencies/unitegallery.min.js"></script>
+<script src="../assets/js/dependencies/zug-theme-tiles.js"></script>
+<script src="../assets/js/main.js" async></script>
 
-  <script type="text/javascript" async>
+<script type="text/javascript" async>
 
-    jQuery(document).ready(function(){
-      jQuery('#gallery').unitegallery({
-        gallery_theme: 'tiles',
-        tile_enable_textpanel: true,
-        lightbox_textpanel_title_color: '292929',
-      });
+  jQuery(document).ready(function(){
+    jQuery('#gallery').unitegallery({
+      gallery_theme: 'tiles',
+      tile_enable_textpanel: true,
+      lightbox_textpanel_title_color: '292929',
     });
+  });
 
-  </script>
+</script>
 <!--SCRIPTS END-->
 
 </body>
