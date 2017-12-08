@@ -1,11 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>http://example.com/</loc>
-        <lastmod>2006-11-18</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/property.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/products.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/location.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/pr-and-editorial.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/people.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/business-portraits.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.creativeedgephoto.co.uk/photos/interiors-and-exteriors.html</loc>
+  <lastmod>2017-11-26T11:00:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
