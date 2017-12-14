@@ -1,11 +1,11 @@
-var Hero = (function() {
-    const Heroslides = $('.hero__slides')
+var hero = (function() {
+    var heroslides = $('.hero__slides')
 	return {
     	slideCtrl: function() {
             setInterval(function() {
-                let activeHeroSlide = Heroslides.children('.active')
+                let activeHeroSlide = heroslides.children('.active')
                 activeHeroSlide.removeClass('active')
-                activeHeroSlide.next().length ? activeHeroSlide.next().addClass('active') : Heroslides.children().first().addClass('active')
+                activeHeroSlide.next().length ? activeHeroSlide.next().addClass('active') : heroslides.children().first().addClass('active')
             }, 5000);
 		}
 	};
@@ -13,6 +13,6 @@ var Hero = (function() {
 
 $(document).ready(function() {
 
-	Hero.slideCtrl();
+	hero.slideCtrl();
 
 });
