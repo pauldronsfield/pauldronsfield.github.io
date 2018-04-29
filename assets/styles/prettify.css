@@ -4518,3 +4518,17 @@ a {
         margin-bottom: 50px
     }
 }
+
+.home-links { margin-bottom: 100px }
+
+.home-links__text--mob {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-links { margin-bottom: 50px; }
+    .home-links__text { display: none; }
+    .home-links__text--mob { display: block; }
+}
