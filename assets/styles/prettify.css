@@ -3288,7 +3288,7 @@ legend {
     padding-top: 100px
 }
 .u-padding-t--xxlrg {
-    padding-top: 200px
+    padding-top: 150px
 }
 .u-padding-t--xxxlrg {
     padding-top: 300px
@@ -3312,7 +3312,7 @@ legend {
     padding-bottom: 100px
 }
 .u-padding-b--xxlrg {
-    padding-bottom: 200px
+    padding-bottom: 150px
 }
 .u-padding-b--xxxlrg {
     padding-bottom: 300px
@@ -3336,7 +3336,7 @@ legend {
     margin: 100px
 }
 .u-margin--xxlrg {
-    margin: 200px
+    margin: 150px
 }
 .u-margin--xxxlrg {
     margin: 300px
@@ -3360,7 +3360,7 @@ legend {
     margin-left: 100px
 }
 .u-margin-l--xxlrg {
-    margin-left: 200px
+    margin-left: 150px
 }
 .u-margin-l--xxxlrg {
     margin-left: 300px
@@ -3384,7 +3384,7 @@ legend {
     margin-right: 100px
 }
 .u-margin-r--xxlrg {
-    margin-right: 200px
+    margin-right: 150px
 }
 .u-margin-r--xxxlrg {
     margin-right: 300px
@@ -3408,7 +3408,7 @@ legend {
     margin-top: 100px
 }
 .u-margin-t--xxlrg {
-    margin-top: 200px
+    margin-top: 150px
 }
 .u-margin-t--xxxlrg {
     margin-top: 300px
@@ -3432,7 +3432,7 @@ legend {
     margin-bottom: 100px
 }
 .u-margin-b--xxlrg {
-    margin-bottom: 200px
+    margin-bottom: 150px
 }
 .u-margin-b--xxxlrg {
     margin-bottom: 300px
@@ -3448,7 +3448,7 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: .33;
     line-height: 1
 }
@@ -3462,25 +3462,21 @@ h6 {
     font-weight: 400
 }
 h1 {
-    font-size: 4.8rem
+    font-size: 3.1rem;
+    margin-bottom: 2.5rem
 }
 h2 {
-    font-size: 4rem;
-    margin-bottom: 3rem
-}
-h3 {
-    font-size: 3.1rem;
-    margin-bottom: 3.5rem
-}
-h4 {
     font-size: 2.5rem;
     margin-bottom: 2.5rem
 }
-h5 {
+h3 {
     font-size: 2rem;
-    margin-bottom: .5rem
+    margin-bottom: 2.5rem
 }
-h6,
+h4 {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem
+}
 p {
     font-size: 1.6rem
 }
@@ -4023,129 +4019,6 @@ a {
 .header__nav li {
     transition: color .2s ease-in-out
 }
-.flag,
-.flag--austria,
-.flag--belgium,
-.flag--bulkpowders_store,
-.flag--denmark,
-.flag--france,
-.flag--germany,
-.flag--ireland,
-.flag--italy,
-.flag--netherlands,
-.flag--poland,
-.flag--portugal,
-.flag--spain,
-.flag--sweden {
-    background-image: url(../../images/sprite.png);
-    background-size: 480px;
-    width: 30px;
-    height: 20px;
-    display: inline-block
-}
-.flag--rounded {
-    border-radius: 20px;
-    width: 20px
-}
-.flag--rounded.flag--uk {
-    background-position: -5px 0
-}
-.flag--rounded.flag--ireland {
-    background-position: -5px -40px
-}
-.flag--rounded.flag--denmark {
-    background-position: -5px -80px
-}
-.flag--rounded.flag--germany {
-    background-position: -5px -120px
-}
-.flag--rounded.flag--netherlands {
-    background-position: -5px -160px
-}
-.flag--rounded.flag--italy {
-    background-position: -5px -200px
-}
-.flag--rounded.flag--portugal {
-    background-position: -5px -240px
-}
-.flag--rounded.flag--spain {
-    background-position: -5px -280px
-}
-.flag--rounded.flag--france {
-    background-position: -5px -320px
-}
-.flag--rounded.flag--poland {
-    background-position: -5px -360px
-}
-.flag--rounded.flag--austria {
-    background-position: -5px -400px
-}
-.flag--rounded.flag--belgium {
-    background-position: -5px -440px
-}
-.flag--rounded.flag--sweden {
-    background-position: -65px -440px
-}
-.flag--bulkpowders_store {
-    background-position: 0 0
-}
-.flag--ireland {
-    background-position: 0 -40px
-}
-.flag--denmark {
-    background-position: 0 -80px
-}
-.flag--germany {
-    background-position: 0 -120px
-}
-.flag--netherlands {
-    background-position: 0 -160px
-}
-.flag--italy {
-    background-position: 0 -200px
-}
-.flag--portugal {
-    background-position: 0 -240px
-}
-.flag--spain {
-    background-position: 0 -280px
-}
-.flag--france {
-    background-position: 0 -320px
-}
-.flag--poland {
-    background-position: 0 -360px
-}
-.flag--austria {
-    background-position: 0 -400px
-}
-.flag--belgium {
-    background-position: 0 -440px
-}
-.flag--sweden {
-    background-position: -60px -440px
-}
-.masonry {
-    padding: 0;
-    -moz-column-gap: 0;
-    -webkit-column-gap: 0;
-    column-gap: 0;
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    column-count: 4
-}
-.masonry-item {
-    display: block;
-    width: 100%;
-    padding: 10px
-}
-@media only screen and (max-width: 1100px) {
-    .masonry {
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3
-    }
-}
 .header-container {
     position: absolute;
     top: 0;
@@ -4587,18 +4460,18 @@ a {
     }
 }
 @media screen and (max-width: 730px) {
-    .homepage-article {
+    .homepage-block {
         margin-bottom: 0
     }
-    .homepage-article__image,
-    .homepage-article__text {
-        padding: 0 15px
+    .homepage-block__image,
+    .homepage-block__text {
+        padding: 20px 15px
     }
-    .homepage-article__text-holder {
+    .homepage-block__text-holder {
         position: static;
         transform: none
     }
-    .homepage-article__text p {
+    .homepage-block__text p {
         -webkit-margin-after: 0
     }
 }
